@@ -1,5 +1,3 @@
-import React from "react";
-
 const Cta = () => {
   return (
     <section className="bg-white flex flex-wrap lg:px-36 py-32 lg:mx-24 md:mx-16">
