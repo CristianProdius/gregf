@@ -15,20 +15,36 @@ const NavBar = () => {
       <h1 className="w-full text-3xl font-bold text-[#0056a0]">
         Greg O'Donnell
       </h1>
-      <ul className="hidden md:flex">
-        <li className="p-4 ">
-          <Link to="/">Home</Link>
+      <ul className="hidden md:flex text-2xl">
+        <li className="p-4">
+          <Link
+            to="/"
+            className="border-b-2 border-transparent hover:border-current transition-all duration-200 ease-in-out"
+          >
+            Home
+          </Link>
         </li>
 
         <li className="p-4">
-          <Link to="/about">About</Link>
+          <Link
+            to="/about"
+            className="border-b-2 border-transparent hover:border-current transition-all duration-200 ease-in-out"
+          >
+            About
+          </Link>
         </li>
+
         <li className="p-4">
-          <Link to="/landing">Course</Link>
+          <Link
+            to="/landing"
+            className="border-b-2 border-transparent hover:border-current transition-all duration-200 ease-in-out"
+          >
+            Course
+          </Link>
         </li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
-        {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+        {!nav ? <AiOutlineClose size={32} /> : <AiOutlineMenu size={32} />}
       </div>
       <div
         className={

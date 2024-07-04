@@ -5,7 +5,270 @@ const LandingPage = () => {
   return (
     <div>
       <NavBar />
-      LandingPage
+      <section className="bg-white dark:bg-[#001F3F]">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+          <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+            For Commercial Loan Officers, Lending Managers, Bank Executives
+            Struggling to Find Profitable Expansion Loans…
+          </p>
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+            DISCOVER HOW TO ACHIEVE EXPLOSIVE PROFIT GROWTH WITH THE PROVEN USDA
+            LOAN SUCCESS SYSTEM (RESULTS WITHIN 3-4 MONTHS!)...
+          </h1>
+          <h3 className="mb-4 text-l font-bold tracking-tight leading-none text-gray-900 md:text-2xl lg:text-2xl dark:text-white">
+            ...NO prior USDA expertise needed!
+          </h3>
+
+          <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+            <a
+              href="#"
+              className="bg-[#0056A0] inline-flex justify-center items-center py-3 px-12 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              Enroll Now
+            </a>
+          </div>
+        </div>
+      </section>
+      <div className="py-12 bg-gray-100 p-8">
+        <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+          <div className="p-6 sm:p-12">
+            <h1 className="text-3xl font-bold text-gray-900 mb-4">
+              Dear Commercial Loan Officers/ Lending Managers/ Bank Executives,
+            </h1>
+            <p className="text-gray-700 text-lg mb-6">
+              If you want to break free from lending limits and become a top
+              earner at your bank…so you can finally achieve the career growth
+              and recognition you deserve…then this is going to be the most
+              important message you read all day.
+            </p>
+            <p className="text-gray-700 text-lg mb-6">Here's why…</p>
+            <p className="text-gray-700 text-lg mb-6">
+              As a rural lender, you know the frustration firsthand. You have
+              ambitious clients with strong businesses, but your hands are tied
+              by regulatory restrictions…
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              You're forced to turn away deals that could be transformative for
+              your community AND your bottom line…
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              Meanwhile, larger banks have more resources to navigate complex
+              programs, often snagging your most promising clients.
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              But it doesn't have to be this way…
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              ..Imagine partnering with Greg O'Donnell, America's foremost
+              expert on USDA Guaranteed Lending.
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              With over 18 years of experience and $650 million in successful
+              loans under his belt, he's helped banks just like yours break
+              through those lending limits once and for all.
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              Greg and his team aren't just consultants; they become your
+              'outsourced' USDA specialists, guiding you from start to finish –
+              even handling the secondary market sale so you maximize your
+              profit.
+            </p>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+              Let's be honest – USDA loans can seem daunting.
+            </h2>
+            <p className="text-gray-700 text-lg mb-6">
+              The paperwork, the regulations... it's enough to make even your
+              most experienced lenders hesitate.
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              That's where Greg's expertise becomes your secret weapon.{" "}
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              His streamlined system means your team doesn't have to learn an
+              entirely new program.
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              They focus on building relationships and identifying
+              opportunities, while he handles the USDA heavy lifting.
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              Think of it like this: You're not adding to your workload, you're
+              unlocking a whole new revenue stream with minimal time investment
+              on your part.
+            </p>
+            <h1 className="text-3xl font-bold text-gray-900 mb-4">
+              But maybe you're thinking, "Our lender training covers the basics,
+              isn't that enough?"
+            </h1>
+            <p className="text-gray-700 text-lg mb-6">
+              Here's the thing: USDA programs aren't just about a checklist of
+              rules.{" "}
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              Success depends on understanding the nuances, knowing how to
+              package deals for maximum approval, and navigating the secondary
+              market to get the best possible premium for your bank.{" "}
+            </p>
+
+            <p className="text-gray-700 text-lg mb-6">
+              That's the kind of specialized knowledge most in-house training
+              simply can't provide.
+            </p>
+
+            <p className="text-gray-700 text-lg mb-6">
+              After 18 years guiding banks like yours, Greg O'Donnell knows the
+              USDA program inside and out. That means you bypass frustrating
+              delays and maximize the profits on every deal. (Think six-figure
+              premiums - something most lenders can only dream of)
+            </p>
+
+            <p className="text-gray-700 text-lg mb-6">
+              Let's talk numbers, because that's what ultimately matters to you.
+            </p>
+
+            <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+              Imagine closing a $2 million USDA loan. With the right structure,
+              you're looking at a potential profit of $180,000 or more – and
+              that's just from ONE deal.
+            </h2>
+            <p className="text-gray-700 text-lg mb-6">
+              Now, what if you could add even just a few of these to your
+              portfolio each year?
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              Think of the impact on your lending targets, your year-end
+              bonuses, and the growth trajectory of your bank as a whole.
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              This isn't about marginal returns – this is about unlocking a
+              significant new income source your competitors are likely missing
+              out on…
+            </p>
+            <p className="text-gray-700 text-lg mb-12">
+              Greg’s methods are field-tested and proven to generate the kind of
+              high-value deals that truly move the needle for rural banks. He'll
+              work with your team to:
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+              <div className="bg-[#001F3F] shadow-lg rounded-lg p-6">
+                <h2 className="text-xl font-bold text-white mb-2">
+                  Identify the 'hidden gems'
+                </h2>
+                <p className="text-[#E3F2FF] text-lg">
+                  Target those overlooked rural businesses within your market
+                  that have massive growth potential but have been constrained
+                  by traditional lending.
+                </p>
+              </div>
+              <div className="bg-[#001F3F] shadow-lg rounded-lg p-6">
+                <h2 className="text-xl font-bold text-white">
+                  Mastermind Deal Structure
+                </h2>
+                <p className="text-[#E3F2FF] text-lg">
+                  Learn how to position USDA loans for maximum profitability AND
+                  a high likelihood of approval.
+                </p>
+              </div>
+              <div className="bg-[#001F3F] shadow-lg rounded-lg p-6">
+                <h2 className="text-xl font-bold text-white">
+                  Conquer the Secondary Market
+                </h2>
+                <p className="text-[#E3F2FF] text-lg">
+                  Get the strategies that lead to top premiums, maximizing the
+                  fees that go directly to your bottom line.
+                </p>
+              </div>
+            </div>
+
+            <p className="text-gray-700 text-lg mb-6 mt-12">
+              But here's the best part: With Greg's system, you can achieve this
+              while minimizing your initial time commitment. You get the results
+              of a comprehensive USDA lending program without the overwhelming
+              build-out phase.
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              Let's make your bold claim a reality. Imagine becoming THE lender
+              your bank turns to for those major deals... the one others come to
+              for advice. This is your chance to not just boost profits but
+              become the recognized leader you know you can be.
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              Imagine this: Community Bank of the Plains, a stalwart institution
+              nestled in the heartland, had hit a frustrating ceiling.{" "}
+            </p>
+
+            <p className="text-gray-700 text-lg mb-6">
+              Their lending limits held them back from supporting the very
+              businesses that were the lifeblood of their community.{" "}
+            </p>
+
+            <p className="text-gray-700 text-lg mb-6">
+              Then, they discovered the transformative power of USDA loans.
+              Suddenly, a multi-million dollar expansion for a local
+              agribusiness, once a distant dream, became a reality.{" "}
+            </p>
+
+            <p className="text-gray-700 text-lg mb-6">
+              The bank not only helped this cornerstone business flourish, but
+              they also saw their own fee income blossom, and the local economy
+              felt the invigorating effects of this investment.
+            </p>
+
+            <p className="text-gray-700 text-lg mb-6">
+              This is just one example of how USDA loans can propel rural banks
+              forward.
+            </p>
+
+            <p className="text-gray-700 text-lg mb-6">
+              Take the case of a small bank in rural Wisconsin. Once, they were
+              barely treading water, their earnings targets a constant source of
+              anxiety.{" "}
+            </p>
+
+            <p className="text-gray-700 text-lg mb-6">
+              But with the strategic implementation of just three USDA deals a
+              year, everything changed.{" "}
+            </p>
+
+            <p className="text-gray-700 text-lg mb-6">
+              Their bottom line received a welcome shot in the arm, a 15%
+              increase that allowed them to not only breathe easier but also to
+              invest back into their team's development and attract even bigger
+              clients.{" "}
+            </p>
+
+            <p className="text-gray-700 text-lg mb-6">
+              They went from feeling stagnant to feeling like a powerhouse,
+              ready to make a real difference.
+            </p>
+
+            <p className="text-gray-700 text-lg mb-6">
+              And it's not just about the numbers, though a healthy profit
+              margin is certainly nothing to scoff at.{" "}
+            </p>
+
+            <p className="text-gray-700 text-lg mb-6">
+              For a Kentucky bank, the USDA program became a weapon in their
+              arsenal against the faceless, out-of-state lenders who often came
+              in and siphoned away promising deals. With their newfound
+              expertise, they were no longer bystanders.{" "}
+            </p>
+
+            <p className="text-gray-700 text-lg mb-6">
+              They were the go-to bank for transformative projects, the ones
+              with the deep community ties and the know-how to make these
+              ventures flourish. They weren't just lending money; they were
+              weaving themselves into the fabric of their community's success
+              story.
+            </p>
+
+            <p className="text-gray-700 text-lg mb-6">
+              So with that being said…
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

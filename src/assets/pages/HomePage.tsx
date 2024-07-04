@@ -1,12 +1,14 @@
 import React from "react";
 import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
+import Cta from "../components/Cta";
 
 const HomePage = () => {
   return (
     <div>
       <NavBar />
       <section className="bg-[#001F3F]">
-        <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 flex flex-col-reverse lg:flex-row">
+        <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12  flex-col-reverse lg:flex-row">
           <div className="mr-auto place-self-center lg:col-span-7 order-2 lg:order-1">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
               I Help Banks Unlock Millions in USDA Loans & Transform Communities
@@ -50,19 +52,18 @@ const HomePage = () => {
         </div>
       </section>
 
-      <div className="pt-8 px-4 mx-auto max-w-screen-xl text-center lg:pt-16 lg:px-6">
-        <div className="mx-auto max-w-screen-sm">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold  text-[#001F3F]">
-            Testimonials
-          </h2>
-          <p className=" font-light text-gray-500  sm:text-xl dark:text-gray-400">
-            Explore the whole collection of open-source web components and
-            elements built with the utility classes from Tailwind
-          </p>
+      <section className="bg-gray-900 dark:bg-white py-32">
+        <div className="pt-8 px-4 mx-auto max-w-screen-xl text-center lg:pt-16 lg:px-6">
+          <div className="mx-auto max-w-screen-sm">
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold  text-[#001F3F]">
+              Testimonials
+            </h2>
+            <p className=" font-light text-gray-500  sm:text-xl dark:text-gray-400">
+              Explore the whole collection of open-source web components and
+              elements built with the utility classes from Tailwind
+            </p>
+          </div>
         </div>
-      </div>
-
-      <section className="bg-gray-900 dark:bg-white">
         <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
           <figure className="max-w-screen-md mx-auto">
             <blockquote>
@@ -90,6 +91,47 @@ const HomePage = () => {
           </figure>
         </div>
       </section>
+
+      <section className="py-32 px-4 text-left bg-[#0056A0] text-white">
+        <div className="w-full max-w-4xl mx-auto">
+          <h1 className="text-4xl mb-6 font-bold font-heading text-center">
+            Who am I?
+          </h1>
+          <div className="flex flex-wrap md:flex-nowrap">
+            <div className="w-full md:w-1/2 mb-6 md:mb-0 md:pr-8 flex flex-col items-center md:items-start">
+              <img
+                src="./GregOdonnell.png"
+                alt="Greg O'Donnell"
+                className="w-32 h-32 rounded-full mb-4"
+              />
+              <h2 className="text-xl font-semibold font-heading">
+                Greg O'Donnell
+              </h2>
+              <h3 className="text-l font-semibold">
+                Managing Member of Guaranteed Lending Specialists, LLC
+              </h3>
+            </div>
+            <div className="w-full md:w-1/2">
+              <p className="mb-4">
+                Award-winning author, consultant, trainer and speaker
+              </p>
+              <p className="mb-4">
+                18+ years dedicated to USDA Guaranteed lending, providing deep,
+                up-to-date knowledge of program intricacies.
+              </p>
+              <p className="mb-4">
+                Has originated and placed over $650 million of loans spanning
+                over twenty years
+              </p>
+              <p className="mb-4">
+                Author of "The Best-Kept Secret to Improved Bank Profits" book
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <Cta />
+      <Footer />
     </div>
   );
 };
