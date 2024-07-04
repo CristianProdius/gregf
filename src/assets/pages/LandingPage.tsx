@@ -1,5 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
+import Faq from "../components/Faq";
 
 const LandingPage = () => {
   return (
@@ -269,6 +271,741 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
+
+      <section className="bg-white dark:bg-[#001F3F]">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+          <h2 className="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+            Here's what you’ll learn in the course:
+          </h2>
+          <div className="grid pt-8 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2">
+            <div>
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                  1. Introduction
+                </h3>
+                <p className="text-gray-500 dark:text-gray-400">
+                  As a seasoned lender, you understand the delicate balance
+                  between growth and risk. But what if there was a proven way to
+                  unlock a new income stream while enhancing your bank's
+                  reputation as an economic driver? It's time to become the
+                  go-to expert...
+                </p>
+              </div>
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                  2. Key Elements to Becoming Your Bank's Most Profitable Lender
+                </h3>
+                <p className="text-gray-500 dark:text-gray-400">
+                  You're not satisfied with just being another lender. You want
+                  to make a real impact – on your clients' businesses, your
+                  bank's bottom line, and your own career trajectory. The USDA
+                  program is your key to unlocking that potential. But it takes
+                  more than just knowing the rules. Let's dive into the
+                  essential elements that will transform you into your bank's
+                  Most Profitable Lender...
+                </p>
+              </div>
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                  3. Why the USDA Business & Industry Program
+                </h3>
+                <p className="text-gray-500 dark:text-gray-400">
+                  Most banks haven't even heard of this powerful program. But
+                  those who have been quietly reaping the rewards. Let's dive
+                  into the secrets of why the USDA B&I Program could be your key
+                  to becoming the most profitable lender in your bank…
+                </p>
+              </div>
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                  4. General Lender Provisions
+                </h3>
+                <p className="text-gray-500 dark:text-gray-400">
+                  Don't let the government programs feel intimidating. This
+                  module breaks down the lender provisions of the USDA program
+                  into clear steps and understandable guidelines. Discover how
+                  simple it is to become an approved lender and start reaping
+                  the rewards.
+                </p>
+              </div>
+
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                  5. Project Eligibility
+                </h3>
+                <p className="text-gray-500 dark:text-gray-400">
+                  You might be amazed at the deals you've had to pass on in the
+                  past, thinking they just weren't a fit for your bank. But the
+                  USDA Business & Industry Program opens doors to a whole new
+                  world of lending opportunities. In this module, get ready to
+                  expand your thinking. You'll learn:
+                </p>
+              </div>
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                  6. Ineligible Projects
+                </h3>
+
+                <p className="text-gray-500 dark:text-gray-400">
+                  Before diving into what USDA loans can fund, let's cut to the
+                  chase: Not every project will qualify. Knowing these
+                  deal-breakers early will save you time and protect your bank's
+                  reputation. Let's look at the types of projects and businesses
+                  that USDA lending won't support.
+                </p>
+              </div>
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                  7. Structuring the Deal
+                </h3>
+                <p className="text-gray-500 dark:text-gray-400">
+                  Think of USDA loans as more than just a new product. They're a
+                  powerful financial tool. Knowing how to structure them
+                  correctly is the difference between average returns and the
+                  kind of premiums that make you the lending superstar of your
+                  bank.
+                </p>
+              </div>
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                  8. New Construction Implications
+                </h3>
+                <p className="text-gray-500 dark:text-gray-400">
+                  Discover the USDA advantage that eliminates the need for
+                  complex, high-interest construction loans. Get ready to
+                  simplify funding and reduce risk…
+                </p>
+              </div>
+            </div>
+            <div>
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                  9. Origination Requirements
+                </h3>
+                <p className="text-gray-500 dark:text-gray-400">
+                  We've covered how the USDA B&I program can transform your
+                  lending game. But to truly reap the benefits of these
+                  high-profit, low-risk loans, you need a rock-solid origination
+                  process. Understanding the USDA's specific requirements isn't
+                  just about compliance – it's the key to securing those premium
+                  deals and maximizing your bank's bottom line.
+                </p>
+              </div>
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                  10. Compliance with USDA Requirements
+                </h3>
+                <p className="text-gray-500 dark:text-gray-400">
+                  USDA loans offer tremendous opportunities, but they also come
+                  with environmental and regulatory requirements. Understanding
+                  these from the start is crucial. Not only does it ensure your
+                  deals sail through the approval process, but it also protects
+                  your bank from costly delays or even project ineligibility.
+                </p>
+              </div>
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                  11. Preliminary Eligibility Review
+                </h3>
+                <p className="text-gray-500 dark:text-gray-400">
+                  Think of the USDA Preliminary Eligibility Review as your
+                  'green light' tool. It's a quick way to get early feedback and
+                  avoid wasting time on deals that are unlikely to qualify. In
+                  this module, we'll demystify the process and show you exactly
+                  what the USDA is looking for.
+                </p>
+              </div>
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                  12. Application Requirements
+                </h3>
+                <p className="text-gray-500 dark:text-gray-400">
+                  The USDA application process may seem complex, but don't let
+                  that deter you. A complete well-crafted application is your
+                  key to unlocking those extraordinary profits we've discussed.
+                  In this module, we'll demystify the requirements and help you
+                  put together a winning package for your ban
+                </p>
+              </div>
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                  13. Guarantee Provisions
+                </h3>
+                <p className="text-gray-500 dark:text-gray-400">
+                  In the world of lending, guarantees are a powerful tool. But
+                  with USDA loans, the guarantees become a true competitive
+                  advantage for your bank. Knowing how they work gives you the
+                  knowledge to not only tap into this lucrative program but also
+                  to maximize the return for every deal. By understanding what
+                  the USDA guarantees – and what they don't – you'll be able to
+                  confidently structure loans that minimize your risk while
+                  generating unprecedented fees.
+                </p>
+              </div>
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                  14. Servicing Provisions
+                </h3>
+                <p className="text-gray-500 dark:text-gray-400">
+                  Smart loan servicing isn't just about compliance – it's about
+                  protecting your bank's investment and maximizing those premium
+                  fees you've worked so hard to secure. In this module, we'll
+                  cover the essential actions that ensure a smooth process AND
+                  position you as the USDA lending expert within your bank.
+                </p>
+              </div>
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                  15. Servicing Provisions (Continued)
+                </h3>
+                <p className="text-gray-500 dark:text-gray-400">
+                  Even after a USDA loan is closed, your bank has options. This
+                  section explores those scenarios, ensuring you have the
+                  flexibility to adapt as your portfolio grows and changes.
+                </p>
+              </div>
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                  16. What Happens In Default
+                </h3>
+                <p className="text-gray-500 dark:text-gray-400">
+                  Even the best-laid lending plans can encounter unexpected
+                  challenges. While the USDA program is designed to minimize
+                  risk, it's crucial for lenders to understand the steps
+                  involved when a borrower defaults. This module will walk you
+                  through the procedures for default, liquidation, and
+                  bankruptcy scenarios
+                </p>
+              </div>
+              <div className="mb-10">
+                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                  17. New Construction Implications
+                </h3>
+                <p className="text-gray-500 dark:text-gray-400">
+                  It's frustrating to watch promising deals slip through your
+                  fingers due to lending limits. What if there was a way to fund
+                  those transformative projects, strengthen your community, AND
+                  significantly boost your bank's earnings? There is, and the
+                  key lies in a strategy many banks ignore.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="pt-12 bg-gray-100 p-8">
+        <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden ">
+          <div className="p-6 sm:p-12 ">
+            <h1 className="text-3xl font-bold text-gray-900 mb-4">
+              But Wait!!! There’s More…
+            </h1>
+            <h2 className="text-2xl font-bold text-center">
+              Bonus #1: The Best-Kept Secret to Improved Bank Profits: The
+              Ultimate Banker's Guide to Making More Money, Doing Fewer Deals
+              and Taking Less Risk That 99% of Bankers Aren't Doing Today (FREE)
+            </h2>
+            <img
+              src="./book.jpg"
+              alt="the book"
+              className="max-w-md mx-auto w-full h-auto shadow-lg rounded-lg my-4"
+            />
+            <div className="p-6 sm:p-12">
+              <ul className="list-disc list-inside text-gray-700 text-lg space-y-2">
+                <li>
+                  Crack the secret government program that lets you fund the
+                  high-impact, lucrative deals that were once off-limits.
+                </li>
+                <li>
+                  Outmaneuver big banks and win the deals that transform
+                  businesses and communities...without adding the same level of
+                  risk.
+                </li>
+                <li>
+                  Discover how a handful of strategic deals per year can
+                  supercharge your non-interest income.
+                </li>
+                <li>
+                  Say goodbye to the grind of chasing marginal returns. This
+                  program unlocks extraordinary fees with streamlined processes.
+                </li>
+                <li>
+                  Learn the insider techniques to structure deals that maximize
+                  your profits and minimize your bank's exposure.
+                </li>
+              </ul>
+              <p className="text-gray-500 dark:text-gray-400">
+                Special: Only on this page, right now.
+              </p>
+              <p className="text-gray-500 dark:text-gray-400">
+                Because of limited availability, this bonus is offered to the
+                first 5 students who enroll.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="py-12 bg-gray-100 p-8">
+        <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden ">
+          <div className="p-6 sm:p-12 ">
+            <h1 className="text-3xl font-bold text-gray-900 mb-4">
+              Bonus #2: 1-Hour Deal Strategy Session with Greg O'Donnell ($1,500
+              value)
+            </h1>
+
+            <div className="p-6 sm:p-12">
+              <ul className="list-disc list-inside text-gray-700 text-lg space-y-2">
+                <li>
+                  During this personalized hour, Greg will review your
+                  prospective deal or lending pipeline and provide strategies
+                  for structuring, packaging, and maximizing your chances of
+                  USDA approval (and a hefty premium!)
+                </li>
+                <li>
+                  Don't navigate the program alone. Get Greg's insight on
+                  borrower qualification, overcoming red tape, and tailoring
+                  your approach to win over the USDA.
+                </li>
+                <li>
+                  Leave the session with a clear action plan and the knowledge
+                  you need to close your first USDA deal profitably and lay the
+                  groundwork for many more.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="py-12 bg-gray-100 p-8">
+        <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden ">
+          <div className="p-6 sm:p-12 ">
+            <h1 className="text-3xl font-bold text-gray-900 mb-4">
+              Bonus #3: Monthly USDA Mastermind Sessions (Value: $1000+/month)
+            </h1>
+
+            <div className="p-6 sm:p-12">
+              <ul className="list-disc list-inside text-gray-700 text-lg space-y-2">
+                <li>
+                  Connect with other motivated lenders on the USDA path in these
+                  exclusive, Greg-led virtual sessions.
+                </li>
+                <li>
+                  Bring your deal challenges, questions, and triumphs to the
+                  group. Get feedback, fresh perspectives, and support from Greg
+                  and your peers.
+                </li>
+                <li>
+                  Learn about new USDA program updates, best practices, and
+                  lender success stories to keep your strategy fresh and your
+                  results growing.
+                </li>
+                <li>
+                  Build valuable relationships with other lenders who are
+                  focused on this profitable niche.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section className="bg-white dark:bg-[#001F3F]">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+          <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+              So you’re probably wondering just how much this costs. Well…
+              ordinarily, here's what similar programs and services would cost
+              individually:
+            </h2>
+          </div>
+          <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+            <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+              <h3 className="mb-4 text-2xl font-semibold">
+                One-on-One USDA Consulting with Greg
+              </h3>
+              <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                depending on complexity
+              </p>
+              <div className="flex justify-center items-baseline my-8">
+                <span className="mr-2 text-5xl font-extrabold">$5,000+</span>
+                <span className="text-gray-500 dark:text-gray-400">/month</span>
+              </div>
+            </div>
+
+            <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+              <h3 className="mb-4 text-2xl font-semibold">
+                Monthly USDA Mastermind Sessions:
+              </h3>
+              <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                for access and expertise
+              </p>
+              <div className="flex justify-center items-baseline my-8">
+                <span className="mr-2 text-5xl font-extrabold">$1,000+</span>
+                <span className="text-gray-500 dark:text-gray-400">/month</span>
+              </div>
+            </div>
+
+            <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+              <h3 className="mb-4 text-2xl font-semibold">
+                Ongoing Support and Deal Review:
+              </h3>
+              <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                Priceless when a single deal can generate six-figure profits
+              </p>
+              <div className="flex justify-center items-baseline my-8">
+                <span className="mr-2 text-5xl font-extrabold">
+                  Use Case depended
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="py-12 bg-gray-100 p-8">
+        <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden ">
+          <div className="p-6 sm:p-12 ">
+            <h1 className="text-3xl font-bold text-gray-900 mb-4">But....</h1>
+
+            <p className="text-gray-700 text-lg mb-6">
+              I want to make this accessible to banks eager to seize this
+              opportunity. That's why I'm offering a special introductory rate.
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              For a limited time, you can enroll in the USDA Loan Mastery Course
+              and gain all the bonuses for just <strong>$2,000</strong> (or
+              Payment Plans available: 2 * $1000 or 3* $750).
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              Remember, a single USDA deal can easily generate six-figure
+              profits. This program is an investment in your bank's future,
+              designed to pay for itself many times over.
+            </p>
+            <div className="flex flex-col my-12 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+              <a
+                href="#"
+                className="bg-[#0056A0] inline-flex justify-center items-center py-3 px-12 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+              >
+                Become Your Bank's Most Profitable Lender – Enroll Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="pb-12 bg-gray-100 ">
+        <div className="p-6 sm:p-12 ">
+          <div className="flex flex-col p-6 mx-auto max-w-4xl text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+            <h3 className="mb-4 text-2xl font-semibold">
+              Here’s Everything You Get:
+            </h3>
+
+            <ul role="list" className="my-8 space-y-4 text-left">
+              <li className="flex items-center space-x-3">
+                <svg
+                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clipRule="evenodd"
+                  ></path>
+                </svg>
+                <span>
+                  <strong>The USDA Loan Mastery video course</strong>- Value
+                  $2000
+                </span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <svg
+                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clipRule="evenodd"
+                  ></path>
+                </svg>
+                <span>
+                  <strong>
+                    Bonus #1: The Best-Kept Secret to Improved Bank Profits{" "}
+                  </strong>
+                  - FREE
+                </span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <svg
+                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clipRule="evenodd"
+                  ></path>
+                </svg>
+                <span>
+                  <strong>
+                    Bonus #2: 1-Hour Deal Strategy Session with Greg O'Donnell{" "}
+                  </strong>
+                  - Value $1,500
+                </span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <svg
+                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clipRule="evenodd"
+                  ></path>
+                </svg>
+                <span>
+                  <strong>Bonus #3: Monthly USDA Mastermind Sessions </strong>{" "}
+                  Value: $1000+/month
+                </span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <svg
+                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clipRule="evenodd"
+                  ></path>
+                </svg>
+                <span>
+                  <strong> 30-Day Moneyback Guarantee</strong>
+                </span>
+              </li>
+            </ul>
+
+            <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400 mt-12">
+              Total Value
+            </p>
+            <div className="flex justify-center items-baseline my-8">
+              <span className="mr-2 text-5xl font-extrabold0">$4500/month</span>
+            </div>
+            <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+              <strong>
+                You can immediately get access for $2000 (or Payment Plans
+                available: 2 * $1000 or 3* $750).
+              </strong>
+            </p>
+            <div className="flex flex-col my-12 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+              <a
+                href="#"
+                className="bg-[#0056A0] inline-flex justify-center items-center py-3 px-12 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+              >
+                Become Your Bank's Most Profitable Lender – Enroll Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="py-12 bg-gray-100 p-8">
+        <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden ">
+          <img
+            src="./garantee.png"
+            alt="guarantee"
+            className="mx-auto w-1/4 h-auto mt-16"
+          />
+          <div className="p-6 sm:p-12 ">
+            <p className="text-gray-700 text-lg mb-6">
+              I want you to feel completely confident in your investment.
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              That's why my guarantee removes all the risk: Complete the course,
+              put the strategies into action, and if you haven't closed a USDA
+              loan within 180 days, I'll refund your tuition in full.
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              This program is designed to work, and I'm backing that up by
+              putting my money where my mouth is.
+            </p>
+            <div className="flex flex-col my-12 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+              <a
+                href="#"
+                className="bg-[#0056A0] inline-flex justify-center items-center py-3 px-12 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+              >
+                Secure Your Spot in the USDA Loan Mastery Course Today!
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="py-12 bg-gray-100 p-8">
+        <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden ">
+          <div className="p-6 sm:p-12 ">
+            <h1 className="text-3xl font-bold text-gray-900 mb-4 text-center mb-8">
+              WHY YOU HAVE TO BUY THIS COURSE TODAY?
+            </h1>
+            <p className="text-gray-700 text-lg mb-6">
+              To ensure each student gets the personalized attention they
+              deserve, enrollment in this launch of the USDA Loan Mastery Course
+              is strictly limited. Once those spots are filled, you'll be
+              waiting for the next round – and potentially missing out on
+              profitable deals in the meantime.
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              The USDA program is a powerful tool for differentiating yourself
+              from other banks. The sooner you master it, the sooner you gain a
+              serious competitive edge. Every day you delay is a day that a
+              rival bank could be closing a deal that should be yours
+            </p>
+            <p className="text-gray-700 text-lg mb-6">
+              USDA deals can generate significant fees and premiums for your
+              bank. The longer you wait to get started, the more potential
+              income you leave on the table.
+            </p>
+            <div className="flex flex-col my-12 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+              <a
+                href="#"
+                className="bg-[#0056A0] inline-flex justify-center items-center py-3 px-12 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+              >
+                Secure Your Spot in the USDA Loan Mastery Course Today!
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="py-12 bg-gray-100 p-8">
+        <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden ">
+          <div className="p-6 sm:p-12 ">
+            <p className="text-gray-700 text-lg mb-6">
+              Imagine a few months from now... You're closing a multi-million
+              dollar deal that would've been impossible before. You see the
+              positive impact on your client's business and their community.
+              Your bank recognizes you as a top performer, a key revenue driver.
+              You have a new title – "USDA Loan Expert" – and it opens doors to
+              exciting opportunities. This is the power of mastering this
+              program.
+            </p>
+            <h1 className="text-3xl font-bold text-gray-900 mb-4 text-center mb-8">
+              The Cost of Inaction:
+            </h1>
+            <p className="text-gray-700 text-lg mb-6">
+              Now, picture this... your competitor down the street closes that
+              same deal. You feel the sting of a missed opportunity, knowing you
+              could have helped that business thrive. Frustration weighs on you
+              as lending limits continue to restrict your bank's growth. You
+              remain just another lender, feeling overlooked and underutilized.
+            </p>
+            <h1 className="text-3xl font-bold text-gray-900 mb-4 text-center mb-8">
+              The Choice is Yours
+            </h1>
+            <p className="text-gray-700 text-lg mb-6">
+              The USDA Loan Mastery Course is your roadmap to the first
+              scenario. It's your key to unlocking a new level of success, both
+              for yourself and your bank. Will you seize this chance or watch it
+              slip away?
+            </p>
+            <div className="flex flex-col my-12 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+              <a
+                href="#"
+                className="bg-[#0056A0] inline-flex justify-center items-center py-3 px-12 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+              >
+                Become Your Bank's Most Profitable Lender – Enroll Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <Faq />
+
+      <section className="bg-gray-100 ">
+        <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-black ">
+            Have more questions? Don't hesitate to contact us
+          </h2>
+
+          <form action="#" className="space-y-8">
+            <div>
+              <label
+                htmlFor="email"
+                className="block mb-2 text-sm font-medium text-black "
+              >
+                Your email
+              </label>
+              <input
+                type="email"
+                id="email"
+                className="shadow-sm bg-gray-200 border border-gray-300 text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 "
+                placeholder="name@gmail.com"
+                required
+              />
+            </div>
+            <div>
+              <label
+                htmlFor="subject"
+                className="block mb-2 text-sm font-medium text-black "
+              >
+                Subject
+              </label>
+              <input
+                type="text"
+                id="subject"
+                className="block p-3 w-full text-sm text-black bg-gray-200 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 "
+                placeholder="Let us know how we can help you"
+                required
+              />
+            </div>
+            <div className="sm:col-span-2">
+              <label
+                htmlFor="message"
+                className="block mb-2 text-sm font-medium text-black "
+              >
+                Your message
+              </label>
+              <textarea
+                id="message"
+                rows={6}
+                className="block p-2.5 w-full text-sm text-black bg-gray-200 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 "
+                placeholder="Leave a comment..."
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              className="py-3 px-5 text-sm font-medium text-center text-black rounded-lg bg-primary-200 sm:w-fit hover:bg-primary-300 focus:ring-4 focus:outline-none focus:ring-primary-700 "
+            >
+              Send message
+            </button>
+          </form>
+        </div>
+
+        <div className="flex flex-col py-12 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 ">
+          <a
+            href="#"
+            className="bg-[#0056A0] inline-flex justify-center items-center py-3 px-12 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+          >
+            Become Your Bank's Most Profitable Lender – Enroll Now
+          </a>
+        </div>
+      </section>
+
+      <Footer />
     </div>
   );
 };
