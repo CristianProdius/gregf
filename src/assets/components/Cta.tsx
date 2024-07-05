@@ -14,7 +14,7 @@ const Cta = () => {
           </p>
           <div className="flex space-x-4">
             <a
-              href="https://www.glsusda.com/book-offer-form.html"
+              href="https://maven.com/p/2f40c5/the-best-kept-secret-to-improved-bank-profits?utm_medium=lead_magnet_share_link&utm_source=instructor"
               className="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100"
             >
               Learn more
@@ -32,7 +32,7 @@ const Cta = () => {
           </p>
           <div className="flex space-x-4">
             <a
-              href="#"
+              href="https://maven.com/gregodonnell/usda-loan?utm_campaign=MTg3NDM0&utm_medium=clp_share_link&utm_source=instructor"
               className="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100"
             >
               Explore The USDA Mastery Course

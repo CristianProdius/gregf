@@ -1,6 +1,7 @@
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import Faq from "../components/Faq";
+import Modules from "../components/Modules";
 
 const LandingPage = () => {
   return (
@@ -271,232 +272,12 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <section className="bg-white dark:bg-[#001F3F]">
-        <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-          <h2 className="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-            Here's what you’ll learn in the course:
-          </h2>
-          <div className="grid pt-8 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2">
-            <div>
-              <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                  1. Introduction
-                </h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  As a seasoned lender, you understand the delicate balance
-                  between growth and risk. But what if there was a proven way to
-                  unlock a new income stream while enhancing your bank's
-                  reputation as an economic driver? It's time to become the
-                  go-to expert...
-                </p>
-              </div>
-              <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                  2. Key Elements to Becoming Your Bank's Most Profitable Lender
-                </h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  You're not satisfied with just being another lender. You want
-                  to make a real impact – on your clients' businesses, your
-                  bank's bottom line, and your own career trajectory. The USDA
-                  program is your key to unlocking that potential. But it takes
-                  more than just knowing the rules. Let's dive into the
-                  essential elements that will transform you into your bank's
-                  Most Profitable Lender...
-                </p>
-              </div>
-              <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                  3. Why the USDA Business & Industry Program
-                </h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Most banks haven't even heard of this powerful program. But
-                  those who have been quietly reaping the rewards. Let's dive
-                  into the secrets of why the USDA B&I Program could be your key
-                  to becoming the most profitable lender in your bank…
-                </p>
-              </div>
-              <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                  4. General Lender Provisions
-                </h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Don't let the government programs feel intimidating. This
-                  module breaks down the lender provisions of the USDA program
-                  into clear steps and understandable guidelines. Discover how
-                  simple it is to become an approved lender and start reaping
-                  the rewards.
-                </p>
-              </div>
-
-              <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                  5. Project Eligibility
-                </h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  You might be amazed at the deals you've had to pass on in the
-                  past, thinking they just weren't a fit for your bank. But the
-                  USDA Business & Industry Program opens doors to a whole new
-                  world of lending opportunities. In this module, get ready to
-                  expand your thinking. You'll learn:
-                </p>
-              </div>
-              <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                  6. Ineligible Projects
-                </h3>
-
-                <p className="text-gray-500 dark:text-gray-400">
-                  Before diving into what USDA loans can fund, let's cut to the
-                  chase: Not every project will qualify. Knowing these
-                  deal-breakers early will save you time and protect your bank's
-                  reputation. Let's look at the types of projects and businesses
-                  that USDA lending won't support.
-                </p>
-              </div>
-              <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                  7. Structuring the Deal
-                </h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Think of USDA loans as more than just a new product. They're a
-                  powerful financial tool. Knowing how to structure them
-                  correctly is the difference between average returns and the
-                  kind of premiums that make you the lending superstar of your
-                  bank.
-                </p>
-              </div>
-              <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                  8. New Construction Implications
-                </h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Discover the USDA advantage that eliminates the need for
-                  complex, high-interest construction loans. Get ready to
-                  simplify funding and reduce risk…
-                </p>
-              </div>
-            </div>
-            <div>
-              <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                  9. Origination Requirements
-                </h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  We've covered how the USDA B&I program can transform your
-                  lending game. But to truly reap the benefits of these
-                  high-profit, low-risk loans, you need a rock-solid origination
-                  process. Understanding the USDA's specific requirements isn't
-                  just about compliance – it's the key to securing those premium
-                  deals and maximizing your bank's bottom line.
-                </p>
-              </div>
-              <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                  10. Compliance with USDA Requirements
-                </h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  USDA loans offer tremendous opportunities, but they also come
-                  with environmental and regulatory requirements. Understanding
-                  these from the start is crucial. Not only does it ensure your
-                  deals sail through the approval process, but it also protects
-                  your bank from costly delays or even project ineligibility.
-                </p>
-              </div>
-              <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                  11. Preliminary Eligibility Review
-                </h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Think of the USDA Preliminary Eligibility Review as your
-                  'green light' tool. It's a quick way to get early feedback and
-                  avoid wasting time on deals that are unlikely to qualify. In
-                  this module, we'll demystify the process and show you exactly
-                  what the USDA is looking for.
-                </p>
-              </div>
-              <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                  12. Application Requirements
-                </h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  The USDA application process may seem complex, but don't let
-                  that deter you. A complete well-crafted application is your
-                  key to unlocking those extraordinary profits we've discussed.
-                  In this module, we'll demystify the requirements and help you
-                  put together a winning package for your ban
-                </p>
-              </div>
-              <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                  13. Guarantee Provisions
-                </h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  In the world of lending, guarantees are a powerful tool. But
-                  with USDA loans, the guarantees become a true competitive
-                  advantage for your bank. Knowing how they work gives you the
-                  knowledge to not only tap into this lucrative program but also
-                  to maximize the return for every deal. By understanding what
-                  the USDA guarantees – and what they don't – you'll be able to
-                  confidently structure loans that minimize your risk while
-                  generating unprecedented fees.
-                </p>
-              </div>
-              <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                  14. Servicing Provisions
-                </h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Smart loan servicing isn't just about compliance – it's about
-                  protecting your bank's investment and maximizing those premium
-                  fees you've worked so hard to secure. In this module, we'll
-                  cover the essential actions that ensure a smooth process AND
-                  position you as the USDA lending expert within your bank.
-                </p>
-              </div>
-              <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                  15. Servicing Provisions (Continued)
-                </h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Even after a USDA loan is closed, your bank has options. This
-                  section explores those scenarios, ensuring you have the
-                  flexibility to adapt as your portfolio grows and changes.
-                </p>
-              </div>
-              <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                  16. What Happens In Default
-                </h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Even the best-laid lending plans can encounter unexpected
-                  challenges. While the USDA program is designed to minimize
-                  risk, it's crucial for lenders to understand the steps
-                  involved when a borrower defaults. This module will walk you
-                  through the procedures for default, liquidation, and
-                  bankruptcy scenarios
-                </p>
-              </div>
-              <div className="mb-10">
-                <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                  17. New Construction Implications
-                </h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  It's frustrating to watch promising deals slip through your
-                  fingers due to lending limits. What if there was a way to fund
-                  those transformative projects, strengthen your community, AND
-                  significantly boost your bank's earnings? There is, and the
-                  key lies in a strategy many banks ignore.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Modules />
 
       <div className="pt-12 bg-gray-100 p-8">
         <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden ">
           <div className="p-6 sm:p-12 ">
-            <h1 className="text-3xl font-bold text-gray-900 mb-4">
+            <h1 className="text-3xl font-bold text-gray-900 mb-4 text-center">
               But Wait!!! There’s More…
             </h1>
             <h2 className="text-2xl font-bold text-center">
@@ -510,7 +291,7 @@ const LandingPage = () => {
               className="max-w-md mx-auto w-full h-auto shadow-lg rounded-lg my-4"
             />
             <div className="p-6 sm:p-12">
-              <ul className="list-disc list-inside text-gray-700 text-lg space-y-2">
+              <ul className="list-disc list-inside text-gray-700 text-lg space-y-2 ">
                 <li>
                   Crack the secret government program that lets you fund the
                   high-impact, lucrative deals that were once off-limits.
@@ -674,8 +455,7 @@ const LandingPage = () => {
             </p>
             <p className="text-gray-700 text-lg mb-6">
               For a limited time, you can enroll in the USDA Loan Mastery Course
-              and gain all the bonuses for just <strong>$2,000</strong> (or
-              Payment Plans available: 2 * $1000 or 3* $750).
+              and gain all the bonuses for just <strong>$997</strong>
             </p>
             <p className="text-gray-700 text-lg mb-6">
               Remember, a single USDA deal can easily generate six-figure
@@ -797,18 +577,20 @@ const LandingPage = () => {
               </li>
             </ul>
 
-            <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400 mt-12">
-              Total Value
-            </p>
-            <div className="flex justify-center items-baseline my-8">
-              <span className="mr-2 text-5xl font-extrabold0">$4500/month</span>
+            <div className="mb-8">
+              <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400 mt-12">
+                Total Value
+              </p>
+              <span className="mr-2 text-5xl font-light">$4500</span>
             </div>
+
             <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-              <strong>
-                You can immediately get access for $2000 (or Payment Plans
-                available: 2 * $1000 or 3* $750).
-              </strong>
+              You can immediately get access for
             </p>
+            <span className="py-4 text-5xl font-extrabold text-white ">
+              $997
+            </span>
+
             <div className="flex flex-col my-12 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
               <a
                 href="#"
@@ -934,13 +716,18 @@ const LandingPage = () => {
 
       <Faq />
 
-      <section className="bg-gray-100 ">
+      <section className="bg-gray-100 hidden">
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-black ">
             Have more questions? Don't hesitate to contact us
           </h2>
 
-          <form action="#" className="space-y-8">
+          <form
+            action="mailto:prodiuscristian@gmail.com"
+            method="post"
+            encType="text/plain"
+            className="space-y-8"
+          >
             <div>
               <label
                 htmlFor="email"

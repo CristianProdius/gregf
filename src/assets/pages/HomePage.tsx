@@ -17,10 +17,10 @@ const HomePage = () => {
               growth, maximize fee income, and close the deals that matter.
             </p>
             <a
-              href="#"
+              href="https://maven.com/p/2f40c5/the-best-kept-secret-to-improved-bank-profits?utm_medium=lead_magnet_share_link&utm_source=instructor"
               className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
             >
-              Get started
+              Get Free Book
               <svg
                 className="w-5 h-5 ml-2 -mr-1"
                 fill="currentColor"
@@ -35,10 +35,10 @@ const HomePage = () => {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://maven.com/gregodonnell/usda-loan?utm_campaign=MTg3NDM0&utm_medium=clp_share_link&utm_source=instructor"
               className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
             >
-              Speak to Greg
+              Enroll in the Course
             </a>
           </div>
           <div className="mt-0 lg:col-span-5 flex order-1 lg:order-2 mb-8">
@@ -51,7 +51,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section className="bg-gray-900 dark:bg-white py-32">
+      <section className="bg-gray-900 dark:bg-white py-32 hidden">
         <div className="pt-8 px-4 mx-auto max-w-screen-xl text-center lg:pt-16 lg:px-6">
           <div className="mx-auto max-w-screen-sm">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold  text-[#001F3F]">
