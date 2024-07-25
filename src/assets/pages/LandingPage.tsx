@@ -23,7 +23,7 @@ const LandingPage = () => {
 
           <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <a
-              href="#"
+              href="https://maven.com/gregodonnell/usda-loan?utm_campaign=MTg3NDM0&utm_medium=clp_share_link&utm_source=instructor"
               className="bg-[#0056A0] inline-flex justify-center items-center py-3 px-12 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
             >
               Enroll Now
@@ -464,7 +464,7 @@ const LandingPage = () => {
             </p>
             <div className="flex flex-col my-12 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
               <a
-                href="#"
+                href="https://maven.com/gregodonnell/usda-loan?utm_campaign=MTg3NDM0&utm_medium=clp_share_link&utm_source=instructor"
                 className="bg-[#0056A0] inline-flex justify-center items-center py-3 px-12 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
               >
                 Become Your Bank's Most Profitable Lender – Enroll Now
@@ -593,7 +593,7 @@ const LandingPage = () => {
 
             <div className="flex flex-col my-12 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
               <a
-                href="#"
+                href="https://maven.com/gregodonnell/usda-loan?utm_campaign=MTg3NDM0&utm_medium=clp_share_link&utm_source=instructor"
                 className="bg-[#0056A0] inline-flex justify-center items-center py-3 px-12 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
               >
                 Become Your Bank's Most Profitable Lender – Enroll Now
@@ -625,7 +625,7 @@ const LandingPage = () => {
             </p>
             <div className="flex flex-col my-12 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
               <a
-                href="#"
+                href="https://maven.com/gregodonnell/usda-loan?utm_campaign=MTg3NDM0&utm_medium=clp_share_link&utm_source=instructor"
                 className="bg-[#0056A0] inline-flex justify-center items-center py-3 px-12 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
               >
                 Secure Your Spot in the USDA Loan Mastery Course Today!
@@ -661,7 +661,7 @@ const LandingPage = () => {
             </p>
             <div className="flex flex-col my-12 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
               <a
-                href="#"
+                href="https://maven.com/gregodonnell/usda-loan?utm_campaign=MTg3NDM0&utm_medium=clp_share_link&utm_source=instructor"
                 className="bg-[#0056A0] inline-flex justify-center items-center py-3 px-12 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
               >
                 Secure Your Spot in the USDA Loan Mastery Course Today!
@@ -704,7 +704,7 @@ const LandingPage = () => {
             </p>
             <div className="flex flex-col my-12 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
               <a
-                href="#"
+                href="https://maven.com/gregodonnell/usda-loan?utm_campaign=MTg3NDM0&utm_medium=clp_share_link&utm_source=instructor"
                 className="bg-[#0056A0] inline-flex justify-center items-center py-3 px-12 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
               >
                 Become Your Bank's Most Profitable Lender – Enroll Now
@@ -783,7 +783,7 @@ const LandingPage = () => {
 
         <div className="flex flex-col py-12 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 ">
           <a
-            href="#"
+            href="https://maven.com/gregodonnell/usda-loan?utm_campaign=MTg3NDM0&utm_medium=clp_share_link&utm_source=instructor"
             className="bg-[#0056A0] inline-flex justify-center items-center py-3 px-12 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
           >
             Become Your Bank's Most Profitable Lender – Enroll Now
